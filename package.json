@@ -1,0 +1,40 @@
+{
+  "name": "react-color-picker-component",
+  "version": "1.0.2",
+  "description": "A simple React Color Picker component",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gt+ihttps://github.com/shyakachaste/ColorPicker.git"
+  },
+  "keywords": [
+    "react",
+    "color-picker",
+    "color",
+    "component"
+  ],
+  "author": "Shyaka Chaste",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shyakachaste/ColorPicker/issues"
+  },
+  "homepage": "https://github.com/shyakachaste/ColorPicker#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/runtime": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
